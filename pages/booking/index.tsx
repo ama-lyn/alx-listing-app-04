@@ -55,7 +55,7 @@ export default function BookingPage() {
     <div className="container mx-auto p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
             <BookingForm 
               formData={formData}
               onChange={handleInputChange}
@@ -72,8 +72,8 @@ export default function BookingPage() {
           </form>
         </div>
         <div className="space-y-6">
-          <OrderSummary bookingDetails={bookingDetails} />
-          <CancellationPolicy />
+        <OrderSummary bookingDetails={bookingDetails} />
+        <CancellationPolicy />
         </div>
       </div>
     </div>
